@@ -1,4 +1,3 @@
-# LipstheAngle
 <img align="right" src="https://count.getloli.com/get/@:LiptheAngle?theme=rule34">
 <table><tr><td bgcolor=pink>
 你要写月，就不能只写月<br/>
