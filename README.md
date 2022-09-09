@@ -1,6 +1,6 @@
 # LipstheAngle
 <img align="right" src="https://count.getloli.com/get/@:LiptheAngle?theme=rule34">
-<table><br><td bgcolor=green>
+<table><tr><td bgcolor=pink>
 你要写月，就不能只写月<br/>
 要写明灭，写圆缺，写世人看不出的沧桑与诡谲。<br/>
 要写夜雨梨花打湿阶、孤影独孓。<br/>
