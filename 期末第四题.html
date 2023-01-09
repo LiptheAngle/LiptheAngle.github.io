@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+   <title>第四题</title>
+  <style type="text/css">
+	div{
+	 width:100px;
+	 height:100px;
+	 font-size:18px;
+	 /* font-family:华文行楷; */
+	 display:inline-block;
+	/*  margin:5px; */
+	 padding:30px;
+	 text-align:center;
+	 color:rgb(65, 83, 62);
+	 position:absolute;
+	 border:1px solid #006600;
+	 background-color:rgba(55, 123, 52, 0.2); 
+	 border-radius:80px;
+	 transition:all 0.6s;
+	 /* transition-property:background-color,width,height,font-size;
+	 transition-duration:3s;
+	 transition-delay:0s;
+	  */
+	
+	}
+	/* div:hover{
+		background-color:rgba(55, 123, 52, 0.5);
+		font-size:21px;
+		width:120px;
+	    height:120px;
+		border-radius:95px;
+	} */
+
+	
+  </style>
+  
+ </head>
+ <body>
+  <script type="text/javascript">
+  var s = '玉阶生白露夜久侵罗袜却下水精帘玲珑望秋月';
+  //alert(window.innerWidth);
+  //alert(window.innerHeight);
+  for (var i=0; i<100 ; i++ )
+  { 
+  	var divDom = document.createElement('div');
+  	divDom.textContent = s;
+  	divDom.onmouseover = function(){
+  		var x = Math.floor(Math.random() * window.innerWidth );
+  		var y = Math.floor(Math.random() * window.innerHeight );
+		//var x = Math.floor(Math.random() * 1200);
+		//var y = Math.floor(Math.random() * 600);
+  		this.style.left = x + 'px';
+  		this.style.top = y + 'px' ;
+  		};
+  
+  	randPositionDiv(divDom);
+  	document.body.appendChild(divDom);
+  
+  }//End of for Loop
+   
+  function randPositionDiv(dom){
+  		var x = Math.floor( Math.random() * 600 );
+  		var y = Math.floor( Math.random() * 600 );
+  		dom.style.left = x + 'px';
+  		dom.style.top = y +'px';
+  	}
+  	
+  
+  </script>
+ </body>
+</html>
